@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #041E42;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 80px;
+    background-color: #030712;
+    row-gap: 24px;
+}
+header h1 {
+    margin: 0;
+    color: #D1D5DB;
+}
+
+header .right-content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #D1D5DB;
+    font-weight: medium;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #d1d5db80;
+}
+
+.btn {
+    background-color: #F9FAFB;
+    border: none;
+    color: #111827;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: medium;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f9fafb80;
+    color: #11182780;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.divider {
+    width: 1px;
+    height: 24px;
+    background-color: #1F2937;
+}
+
+.hero-section {
+    margin: 96px 80px;
+    padding-inline: 32px;
+}
+
+.hero-section h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #F9FAFB;
+}
+
+.hero-section .column .content {
+    gap: 8px;
+}
+
+.hero-section .column .content p {
+    font-size: 16px;
+    color: #D1D5DB;
+}
+
+.hero-section .column .group {
+    gap: 8px;
+    color: #D1D5DB;
+    font-size: 16px;
+}
+
+.hero-section .column .group .location {
+    display: flex;
+    align-items: center;
+    color: #D1D5DB;
+    font-size: 16px;
+    gap: 8px;
+}
