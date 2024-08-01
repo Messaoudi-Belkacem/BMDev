@@ -1,10 +1,11 @@
-import Header from './Header'
-import Hero from './Hero'
+import { Navbar } from './components'
+import {Hero} from './conatiners'
+import './main.css'
 
 function App() {
   return(
     <>
-      <Header/>
+      <Navbar/>
       <Hero/>
     </>
   )

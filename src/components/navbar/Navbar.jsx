@@ -1,8 +1,10 @@
-function Header() {
+import './navbar.css';
+
+function Navbar() {
     return(
-        <header>
+        <div className="navbar">
             <h1>BM</h1>
-            <div className="right-content">
+            <div className="navbar-right-content">
                 <nav>
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -13,10 +15,10 @@ function Header() {
                     </ul>
                 </nav>
                 <div className="divider"></div>
-                <button className="btn">Download CV</button>
+                <button className="navbar-right-content-button">Download CV</button>
             </div>
-        </header>
+        </div>
     )
 }
 
-export default Header
+export default Navbar
