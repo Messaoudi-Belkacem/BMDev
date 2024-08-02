@@ -33,3 +33,9 @@
     font-weight: normal;
     color: #F9FAFB;
 }
+
+.__bmdev-project-technologies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
