@@ -1,0 +1,35 @@
+.__bmdev-project{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.__bmdev-project-thumbnail{
+    background: #374151;
+    padding: 48px;
+    border: 0;
+    border-radius: 12px 0 0 12px;
+}
+
+.__bmdev-project-content{
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+    padding: 48px;
+    border-radius: 0 12px 12px 0;
+    gap: 24px;
+}
+
+.__bmdev-project-content h3{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #F9FAFB;
+}
+
+.__bmdev-project-content p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #F9FAFB;
+}

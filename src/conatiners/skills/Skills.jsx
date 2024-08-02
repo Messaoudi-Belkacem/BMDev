@@ -39,7 +39,7 @@ function Skills() {
             </div>
             <div className='bmdev__skills-technologies'>
                 {technologies.map((tech, index) => (
-                    <Technology key={index} imageSrc={tech.imageSrc} name={tech.name} />
+                    <Technology key={index} imageSrc={tech.imageSrc} name={tech.name} href={tech.href} />
                 ))}
             </div>
         </div>

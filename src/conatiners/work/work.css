@@ -1,0 +1,40 @@
+.bmdev__work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 80px;
+}
+
+.bmdev__work-tag {
+    display: flex;
+    background-color: #374151;
+    border: 0;
+    border-radius: 12px;
+    height: 28px;
+    width: 75px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.bmdev__work-tag p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #F9FAFB;
+}
+
+.bmdev__work-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.bmdev__work-text p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #F9FAFB;
+}
