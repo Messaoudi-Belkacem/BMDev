@@ -14,7 +14,7 @@ function Navbar() {
                         <li><a href="#">contact</a></li>
                     </ul>
                 </nav>
-                <div className="divider"></div>
+                <div id="vertical-divider"></div>
                 <button className="navbar-right-content-button">Download CV</button>
             </div>
         </div>

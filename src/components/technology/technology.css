@@ -1,0 +1,31 @@
+.__bmdev-technology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .__bmdev-technology:hover {
+    transform: scale(1.05);
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+  }
+  
+  .technology-image {
+    width: 64px;
+    height: 64px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    object-fit: contain;
+  }
+  
+  .technology-name {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 28px;
+    color: #D1D5DB;
+  }
+  
