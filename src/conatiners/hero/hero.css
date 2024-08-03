@@ -84,3 +84,9 @@
 .bmdev__hero-image {
     padding-left: 80px;
 }
+
+.bmdev__hero-content-links {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}

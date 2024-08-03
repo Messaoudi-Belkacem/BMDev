@@ -38,3 +38,10 @@
     line-height: 28px;
     color: #F9FAFB;
 }
+
+.bmdev__work-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    
+}

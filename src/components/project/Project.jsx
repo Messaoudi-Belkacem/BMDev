@@ -1,8 +1,10 @@
 import PropTypes from 'prop-types';
-import './project.css'
 import Tag from '../tag/Tag';
+import OpenIcon from '../../assets/icon-open.svg'
+import './project.css'
 
-function Project({ projectName, description, imageSrc, technologies}) {
+
+function Project({ projectName, description, imageSrc, href, technologies}) {
     return(
         <div className='__bmdev-project'>
             <div className='__bmdev-project-thumbnail'>
@@ -16,6 +18,11 @@ function Project({ projectName, description, imageSrc, technologies}) {
                         <Tag key={index} text={item}/>
                     ))}
                 </div>
+                <div className='__bmdev-project-content-action'>
+                    <a href={href} target='_blank'>
+                        <img src={OpenIcon} />
+                    </a>
+                </div>
             </div>
         </div>
     )
@@ -25,6 +32,7 @@ Project.propTypes = {
     projectName: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     imageSrc: PropTypes.string.isRequired,
+    href: PropTypes.string.isRequired,
     technologies: PropTypes.arrayOf(PropTypes.string).isRequired
   };
 

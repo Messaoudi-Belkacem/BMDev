@@ -2,6 +2,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { IoEllipse } from "react-icons/io5";
 import myImage from '../../assets/professional-picture.png';
 import githubImage from '../../assets/github-icon.svg'
+import facebookImage from '../../assets/facebook-icon.svg'
 import './hero.css'
 
 function Hero() {
@@ -32,6 +33,9 @@ function Hero() {
                 <div className="bmdev__hero-content-links">
                     <a href="https://github.com/Messaoudi-Belkacem" target="_blank">
                         <img src={githubImage}></img>
+                    </a>
+                    <a href="https://www.facebook.com/waile.messaoudi/" target="_blank">
+                        <img src={facebookImage}></img>
                     </a>
                 </div>
             </div>
