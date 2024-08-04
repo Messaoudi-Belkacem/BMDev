@@ -106,6 +106,14 @@
     color: #D1D5DB;
 }
 
+.bmdev__footer-main-extra-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
 .bmdev__footer-copyrights {
     display: flex;
     justify-content: center;

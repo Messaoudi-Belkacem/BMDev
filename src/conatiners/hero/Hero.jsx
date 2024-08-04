@@ -3,6 +3,8 @@ import { IoEllipse } from "react-icons/io5";
 import myImage from '../../assets/professional-picture.png';
 import githubImage from '../../assets/github-icon.svg'
 import facebookImage from '../../assets/facebook-icon.svg'
+import instagramImage from '../../assets/instagram-icon.svg'
+import linkedInImage from '../../assets/linkedin-icon.svg'
 import './hero.css'
 
 function Hero() {
@@ -36,6 +38,12 @@ function Hero() {
                     </a>
                     <a href="https://www.facebook.com/waile.messaoudi/" target="_blank">
                         <img src={facebookImage}></img>
+                    </a>
+                    <a href="https://www.instagram.com/waile.massudi/" target="_blank">
+                        <img src={instagramImage}></img>
+                    </a>
+                    <a href="https://www.linkedin.com/in/belkacem-messaoudi-a95591230/" target="_blank">
+                        <img src={linkedInImage}></img>
                     </a>
                 </div>
             </div>

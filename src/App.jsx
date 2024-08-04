@@ -3,6 +3,7 @@ import {Footer, Hero} from './conatiners'
 import {Skills} from './conatiners'
 import {Work} from './conatiners'
 import './main.css'
+import './scrollbar.css'
 
 function App() {
   return(

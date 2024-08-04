@@ -1,5 +1,7 @@
 import githubImage from '../../assets/github-icon.svg'
 import facebookImage from '../../assets/facebook-icon.svg'
+import instagramImage from '../../assets/instagram-icon.svg'
+import linkedInImage from '../../assets/linkedin-icon.svg'
 import mailImage from '../../assets/icon-mail.svg'
 import callImage from '../../assets/icon-call.svg'
 import copyImage from '../../assets/icon-copy.svg'
@@ -42,6 +44,12 @@ function Footer() {
                             </a>
                             <a href="https://www.facebook.com/waile.messaoudi/" target="_blank">
                                 <img src={facebookImage}></img>
+                            </a>
+                            <a href="https://www.instagram.com/waile.massudi/" target="_blank">
+                                <img src={instagramImage}></img>
+                            </a>
+                            <a href="https://www.linkedin.com/in/belkacem-messaoudi-a95591230/" target="_blank">
+                                <img src={linkedInImage}></img>
                             </a>
                         </div>
                     </div>
