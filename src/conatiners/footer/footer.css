@@ -61,6 +61,15 @@
     gap: 16px;
 }
 
+.bmdev__footer-main-contact .icon {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.bmdev__footer-main-contact .icon:hover {
+    transform: scale(1.1);
+}
+
 .bmdev__footer-main-contact-email {
     display: flex;
     flex-direction: row;

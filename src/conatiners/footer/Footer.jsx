@@ -8,6 +8,20 @@ import copyImage from '../../assets/icon-copy.svg'
 import './footer.css'
 
 function Footer() {
+
+    const phoneNumber = '+213 664813680';
+    const email = 'wailmessaoudi806@gmail.com';
+
+    const copyToClipboard = (text) => {
+        navigator.clipboard.writeText(text)
+            .then(() => {
+                alert(`${text} copied to clipboard!`);
+            })
+            .catch(err => {
+                console.error('Failed to copy: ', err);
+            });
+    };
+
     return(
         <div className='bmdev__footer'>
             <div className='bmdev__footer-main'>
@@ -24,15 +38,16 @@ function Footer() {
                 </div>
                 <div className='bmdev__footer-main-contact'>
                     <div className='bmdev__footer-main-contact-email'>
-                        <img src={mailImage}></img>
-                        <p>wailmessaoudi806@gmail.com</p>
-                        <img src={copyImage}></img>
-                        <img src=''></img>
+                        <a href={`mailto:${email}`} className="email-link">
+                            <img className='icon' src={mailImage}></img>
+                        </a>
+                        <p>{email}</p>
+                        <img className='icon' src={copyImage} onClick={() => copyToClipboard(email)}></img>
                     </div>
                     <div className='bmdev__footer-main-contact-phone'>
-                        <img src={callImage}></img>
-                        <p>+213 664813680</p>
-                        <img src={copyImage}></img>
+                        <img className='icon' src={callImage}></img>
+                        <p>{phoneNumber}</p>
+                        <img className='icon' src={copyImage} onClick={() => copyToClipboard(phoneNumber)} ></img>
                     </div>
                 </div>
                 <div>
