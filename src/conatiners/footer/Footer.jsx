@@ -5,6 +5,8 @@ import linkedInImage from '../../assets/linkedin-icon.svg'
 import mailImage from '../../assets/icon-mail.svg'
 import callImage from '../../assets/icon-call.svg'
 import copyImage from '../../assets/icon-copy.svg'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './footer.css'
 
 function Footer() {
@@ -15,10 +17,27 @@ function Footer() {
     const copyToClipboard = (text) => {
         navigator.clipboard.writeText(text)
             .then(() => {
-                alert(`${text} copied to clipboard!`);
+                toast.success(`${text} copied to clipboard!`, {
+                    position: "bottom-center",
+                    autoClose: 2000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
             })
             .catch(err => {
                 console.error('Failed to copy: ', err);
+                toast.error('Failed to copy: ' + err, {
+                    position: "bottom-center",
+                    autoClose: 2000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
             });
     };
 
@@ -45,7 +64,9 @@ function Footer() {
                         <img className='icon' src={copyImage} onClick={() => copyToClipboard(email)}></img>
                     </div>
                     <div className='bmdev__footer-main-contact-phone'>
-                        <img className='icon' src={callImage}></img>
+                        <a href={`tel:${phoneNumber}`} className="phone-link">
+                            <img className='icon' src={callImage}></img>
+                        </a>
                         <p>{phoneNumber}</p>
                         <img className='icon' src={copyImage} onClick={() => copyToClipboard(phoneNumber)} ></img>
                     </div>
@@ -73,6 +94,7 @@ function Footer() {
             <div className='bmdev__footer-copyrights'>
                 <p>© 2024 | Coded with ❤️️ by Messaoudi Blekacem</p>
             </div>
+            <ToastContainer />
         </div>
     )
 }
