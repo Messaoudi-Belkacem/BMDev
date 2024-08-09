@@ -53,10 +53,6 @@
     margin: 0px;
 }
 
-.bmdev__hero-content-info-location .icon {
-    color: #F9FAFB;
-}
-
 .bmdev__hero-content-info-availability {
     display: flex;
     flex-direction: row;
@@ -72,10 +68,6 @@
     margin: 0px;
 }
 
-.bmdev__hero-content-info-availability .icon {
-    color: green;
-}
-
 .bmdev__hero-content img {
     width: 100%;
     height: 100%;
@@ -89,4 +81,24 @@
     display: flex;
     flex-direction: row;
     gap: 4px;
+}
+
+.bmdev__hero-content-info-location .location-icon {
+    height: 24px;
+    width: 24px;
+    color: #D1D5DB;
+}
+
+.bmdev__hero-content-info-availability .ellipse-icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+}
+
+.bmdev__hero-content-info-availability .ellipse-icon {
+    height: 8px;
+    width: 8px;
+    color: #10B981;
 }

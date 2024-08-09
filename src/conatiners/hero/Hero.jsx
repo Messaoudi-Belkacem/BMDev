@@ -14,21 +14,22 @@ function Hero() {
                 <div className="bmdev__hero-content-text">
                     <h1>Hi, I’m Belkacem 👋</h1>
                     <p>
-                        I'm a full stack developer (React.js & Node.js)
-                        with a focus on creating (and occasionally designing)
-                        exceptional digital experiences that are fast, accessible, 
-                        visually appealing, and responsive. Even                        
-                        though I have been creating web applications for over 7 years, 
-                        I still love it as if it was something new.
+                    I'm an Android developer with over a year of experience,
+                    specializing in Jetpack Compose, Kotlin, and Java Spring.
+                    I'm passionate about crafting mobile experiences that are seamless, engaging, and performance-driven.
+                    My focus is on building applications that are not only highly functional but also intuitive and visually striking.
+                    Despite my relatively short time in the industry, I approach each project with enthusiasm and a commitment to innovation that continues to drive my passion for development.
                     </p>
                 </div>
                 <div className="bmdev__hero-content-info">
                     <div className="bmdev__hero-content-info-location">
-                        <IoLocationOutline className="icon"/>
+                        <IoLocationOutline className="location-icon"/>
                         <p>Batna, Algeria</p>
                     </div>
                     <div className="bmdev__hero-content-info-availability">
-                        <IoEllipse className="icon"/>                       
+                        <div className="ellipse-icon-div">
+                            <IoEllipse className="ellipse-icon"/> 
+                        </div>                   
                         <p>Available for new projects</p>
                     </div>
                 </div>
