@@ -9,7 +9,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     padding: 96px 80px;
     gap: 48px;
 }
@@ -134,4 +133,34 @@
     font-size: 14px;
     line-height: 20px;
     color: #D1D5DB;
+}
+
+@media  screen and (max-width: 1050px) {
+    .bmdev__footer-main {
+        padding: 64px 16px;
+        gap: 24px;
+    }
+
+    .bmdev__footer-main-contact-email {
+        gap: 20px;
+    }
+    
+    .bmdev__footer-main-contact-email p {
+        font-size: 18px;
+        font-weight: bolder;
+        line-height: 28px;
+        color: #F9FAFB;
+    }
+    
+    .bmdev__footer-main-contact-phone {
+        gap: 20px;
+    }
+    
+    .bmdev__footer-main-contact-phone p {
+        font-size: 18px;
+        font-weight: bolder;
+        line-height: 28px;
+        color: #F9FAFB;
+    }
+    
 }

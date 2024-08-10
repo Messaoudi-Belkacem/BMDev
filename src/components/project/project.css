@@ -1,7 +1,6 @@
 .__bmdev-project{
     display: flex;
     flex-direction: row;
-    
 }
 
 .__bmdev-project-thumbnail{
@@ -48,4 +47,20 @@
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+}
+
+@media  screen and (max-width: 1050px) {
+    .__bmdev-project{
+        flex-direction: column;
+    }
+
+    .__bmdev-project-thumbnail{
+        padding: 32px;
+        border-radius: 12px 12px 0 0;
+    }
+
+    .__bmdev-project-content{
+        padding: 32px;
+        border-radius: 0 0 12px 12px;
+    }
 }

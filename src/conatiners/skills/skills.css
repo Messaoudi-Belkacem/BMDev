@@ -38,10 +38,27 @@
     font-weight: normal;
     line-height: 28px;
     color: #F9FAFB;
+    text-align: center;
 }
 
 .bmdev__skills-technologies {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 48px;
+}
+
+@media  screen and (max-width: 1050px) {
+    .bmdev__skills {
+        
+        padding: 64px 16px;
+    }
+
+
+    .bmdev__skills-technologies {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 48px;
+    }
 }

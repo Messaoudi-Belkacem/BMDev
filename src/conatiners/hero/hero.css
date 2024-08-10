@@ -102,3 +102,14 @@
     width: 8px;
     color: #10B981;
 }
+
+@media  screen and (max-width: 1050px) {
+    .bmdev__hero {
+        flex-direction: column-reverse;
+        padding: 64px 16px;
+        align-items: center;
+    }
+    .bmdev__hero-image {
+        padding-left: 0px;
+    }
+}

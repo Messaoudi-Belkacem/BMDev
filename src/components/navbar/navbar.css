@@ -50,7 +50,7 @@
     margin-left: 24px;
 }
 
-.navbar-right-content-button {
+.navbar-right-content .button {
     font-size: 16px;
     font-weight: normal;
     line-height: 24px;
@@ -62,7 +62,7 @@
     background: #F9FAFB;
 }
 
-.navbar-right-content-button:hover {
+.navbar-right-content .button:hover {
     font-size: 16px;
     font-weight: normal;
     line-height: 24px;
@@ -73,4 +73,80 @@
     margin-left: 16px;
     background: #f9fafbdd;
     cursor: pointer;
+}
+
+.navbar-menu {
+    display: none;
+}
+
+.navbar-menu_container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: #030712;
+    
+    margin-top: 1rem;
+    min-width: 320px;
+    height: 100%;
+}
+
+.navbar-menu_container .button {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    border-radius: 12px;
+    border: 0;
+    height: 36px;
+    width: 100%;
+    margin-left: 16px;
+    background: #F9FAFB;
+}
+
+.navbar-menu_container .button:hover {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    border-radius: 12px;
+    border: 0;
+    height: 36px;
+    width: 100%;
+    margin-left: 16px;
+    background: #f9fafbdd;
+    cursor: pointer;
+}
+
+.navbar-menu_container hr {
+    border: none;
+    height: 1px;
+    background-color: #1F2937;
+    width: 100%;
+}
+
+.navbar-menu_container-links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+    padding: 16px;
+}
+
+.navbar-menu_container-links p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #D1D5DB;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .navbar-right-content {
+        display: none;
+    }
+
+    .navbar-menu {
+        display: flex;
+    }
 }

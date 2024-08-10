@@ -43,5 +43,15 @@
     display: flex;
     flex-direction: column;
     gap: 48px;
+}
+
+@media  screen and (max-width: 1050px) {
+    .bmdev__work {
+        padding: 64px 16px;
+    }
+
+    .bmdev__work-projects {
+        gap: 24px;
+    }
     
 }
