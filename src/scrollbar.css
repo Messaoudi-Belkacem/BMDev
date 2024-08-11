@@ -1,23 +1,21 @@
 /* scrollbar.css */
 ::-webkit-scrollbar {
-    width: 24px;
+    width: 0px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #111827;
+    background: var(--color-scrollbar-track);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #374151;
-    border-radius: 10px;
-    border: 3px solid #f1f1f1;
+    background-color: var(--color-scrollbar-thumb);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #37415180;
+    background: var(--color-scrollbar-thumb);
 }
 
 html {
     scrollbar-width: auto;
-    scrollbar-color: #374151 #111827;
+    scrollbar-color: var(--color-scrollbar-thumb) var(--color-scrollbar-track);
 }

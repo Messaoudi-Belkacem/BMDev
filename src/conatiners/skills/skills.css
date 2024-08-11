@@ -3,13 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #111827;
     padding: 96px 80px;
+    background: var(--color-bg-2);
 }
 
 .bmdev__skills-tag {
     display: flex;
-    background-color: #374151;
+    background-color: var(--color-tag-background);
     border: 0;
     border-radius: 12px;
     height: 28px;
@@ -23,7 +23,7 @@
     font-size: 14px;
     font-weight: normal;
     line-height: 20px;
-    color: #F9FAFB;
+    color: var(--color-tag-text);
 }
 
 .bmdev__skills-text {
@@ -37,7 +37,7 @@
     font-size: 20px;
     font-weight: normal;
     line-height: 28px;
-    color: #F9FAFB;
+    color: var(--color-text-2);
     text-align: center;
 }
 

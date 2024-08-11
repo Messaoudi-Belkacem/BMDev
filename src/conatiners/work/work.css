@@ -4,11 +4,12 @@
     justify-content: center;
     align-items: center;
     padding: 96px 80px;
+    background: var(--color-bg-1);
 }
 
 .bmdev__work-tag {
     display: flex;
-    background-color: #374151;
+    background-color: var(--color-tag-background);
     border: 0;
     border-radius: 12px;
     height: 28px;
@@ -22,7 +23,7 @@
     font-size: 14px;
     font-weight: normal;
     line-height: 20px;
-    color: #F9FAFB;
+    color: var(--color-tag-text);
 }
 
 .bmdev__work-text {
@@ -36,7 +37,7 @@
     font-size: 20px;
     font-weight: normal;
     line-height: 28px;
-    color: #F9FAFB;
+    color: var(--color-text-2);
 }
 
 .bmdev__work-projects {

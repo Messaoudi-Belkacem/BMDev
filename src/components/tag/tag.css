@@ -1,6 +1,6 @@
 .bmdev__tag {
     display: flex;
-    background-color: #374151;
+    background-color: var(--color-tag-background);
     border: 0;
     border-radius: 12px;
     padding: 4px 20px;

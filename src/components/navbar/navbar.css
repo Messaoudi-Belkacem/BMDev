@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    background: #030712;
+    background: var(--color-bg-1);
     justify-content: space-between;
     padding: 16px 80px;
 }
@@ -10,7 +10,7 @@
     font-size: 30px;
     font-weight: bold;
     line-height: 36px;
-    color: #F9FAFB;
+    color: var(--color-text-2);
 }
 
 .navbar-right-content {
@@ -33,7 +33,7 @@
 }
 
 .navbar-right-content a {
-    color: #F9FAFB;
+    color: var(--color-text-2);
     text-decoration: none;
 }
 
@@ -59,7 +59,8 @@
     height: 36px;
     width: 136px;
     margin-left: 16px;
-    background: #F9FAFB;
+    color: var(--color-button-text);
+    background: var(--color-button-background);
 }
 
 .navbar-right-content .button:hover {
@@ -137,8 +138,48 @@
 .navbar-menu_container-links p {
     font-size: 16px;
     line-height: 24px;
-    color: #D1D5DB;
+    color: var(--color-text-2);
 }
+
+.navbar-right-content .theme-toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    width: 36px;
+    height: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.navbar-right-content .icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+.navbar-right-content .sun-icon {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  
+.navbar-right-content .moon-icon {
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+  
+.navbar-right-content .theme-toggle-button .show {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  
+.navbar-right-content .theme-toggle-button .hide {
+    opacity: 0;
+    transform: rotate(180deg);
+  }
 
 @media screen and (max-width: 1050px) {
 

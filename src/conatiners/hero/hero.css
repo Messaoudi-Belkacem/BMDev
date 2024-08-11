@@ -1,7 +1,7 @@
 .bmdev__hero {
     display: flex;
     flex-direction: row;
-    background: #030712;
+    background: var(--color-bg-1);
     padding: 96px 80px;
     gap: 48px;
 }
@@ -25,7 +25,7 @@
 .bmdev__hero-content-text h1 {
     font-size: 60px;
     font-weight: bold;
-    color: #F9FAFB;
+    color: var(--color-text-2);
     margin: 0;
 }
 
@@ -33,7 +33,7 @@
     font-size: 16px;
     font-weight: normal;
     line-height: 24px;
-    color: #F9FAFB;
+    color: var(--color-text-2);
     margin: 0px;
 }
 
@@ -49,7 +49,7 @@
     font-size: 16px;
     font-weight: normal;
     line-height: 24px;
-    color: #F9FAFB;
+    color: var(--color-text-2);
     margin: 0px;
 }
 
@@ -64,7 +64,7 @@
     font-size: 16px;
     font-weight: normal;
     line-height: 24px;
-    color: #F9FAFB;
+    color: var(--color-text-2);
     margin: 0px;
 }
 
@@ -86,7 +86,7 @@
 .bmdev__hero-content-info-location .location-icon {
     height: 24px;
     width: 24px;
-    color: #D1D5DB;
+    color: var(--color-text-2);
 }
 
 .bmdev__hero-content-info-availability .ellipse-icon-div {

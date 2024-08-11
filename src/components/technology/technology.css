@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 150px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
   }
@@ -27,6 +28,6 @@
     font-weight: normal;
     text-align: center;
     line-height: 28px;
-    color: #D1D5DB;
+    color: var(--color-text-2);
   }
   

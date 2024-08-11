@@ -1,12 +1,36 @@
 :root {
-  
-    --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-    --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
-    
-    --color-bg-1: #030712;
-    --color-bg-2: #111827;
-    --color-footer : #031B34;
-    --color-blog: #042c54;
-    --color-text: #81AFDD;
-    --color-subtext: #FF8A71;
+    --color-bg-1-dark: #030712;
+    --color-bg-2-dark: #111827;
+    --color-bg-1-light: #FFFFFF;
+    --color-bg-2-light: #F9FAFB;
+
+    --color-text-1-dark: #F9FAFB;
+    --color-text-1-light: #111827;
+
+    --color-text-2-dark: #D1D5DB;
+    --color-text-2-light: #4B5563;
+
+    --color-tag-background-dark: #374151;
+    --color-tag-background-light: #E5E7EB;
+
+    --color-tag-text-dark: #D1D5DB;
+    --color-tag-text-light: #4B5563;
+
+    --color-project-background-1-dark: #374151;
+    --color-project-background-1-light: #F9FAFB;
+
+    --color-project-background-2-dark: #1F2937;
+    --color-project-background-2-light: #FFFFFF;
+
+    --color-button-background-dark: #F9FAFB;
+    --color-button-background-light: #111827;
+
+    --color-button-text-dark: #111827;
+    --color-button-text-light: #F9FAFB;
+
+    --color-scrollbar-track-dark: #111827;
+    --color-scrollbar-track-light: #F9FAFB;
+
+    --color-scrollbar-thumb-dark: #374151;
+    --color-scrollbar-thumb-light: #E5E7EB;
   }

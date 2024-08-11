@@ -7,13 +7,40 @@
     margin: 0;
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
-  }
-  
-  body {
-    background: var(--color-bg-1);
-  }
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
 
-  a {
+.dark-mode {
+    --color-bg-1: var(--color-bg-1-dark);
+    --color-bg-2: var(--color-bg-2-dark);
+    --color-text-1: var(--color-text-1-dark);
+    --color-text-2: var(--color-text-2-dark);
+    --color-tag-background: var(--color-tag-background-dark);
+    --color-tag-text: var(--color-tag-text-dark);
+    --color-project-background-1: var(--color-project-background-1-dark);
+    --color-project-background-2: var(--color-project-background-2-dark);
+    --color-button-background: var(--color-button-background-dark);
+    --color-button-text: var(--color-button-text-dark);
+    --color-scrollbar-track: var(--color-scrollbar-track-dark);
+    --color-scrollbar-thumb: var(--color-scrollbar-thumb-dark);
+}
+
+.light-mode {
+    --color-bg-1: var(--color-bg-1-light);
+    --color-bg-2: var(--color-bg-2-light);
+    --color-text-1: var(--color-text-1-light);
+    --color-text-2: var(--color-text-2-light);
+    --color-tag-background: var(--color-tag-background-light);
+    --color-tag-text: var(--color-tag-text-light);
+    --color-project-background-1: var(--color-project-background-1-light);
+    --color-project-background-2: var(--color-project-background-2-light);
+    --color-button-background: var(--color-button-background-light);
+    --color-button-text: var(--color-button-text-light);
+    --color-scrollbar-track: var(--color-scrollbar-track-light);
+    --color-scrollbar-thumb: var(--color-scrollbar-thumb-light);
+}
+
+a {
     color: unset;
     text-decoration: none;
-  }
+}

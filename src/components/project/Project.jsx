@@ -20,7 +20,7 @@ function Project({ projectName, description, imageSrc, href, technologies}) {
                 </div>
                 <div className='__bmdev-project-content-action'>
                     <a href={href} target='_blank'>
-                        <img src={OpenIcon} />
+                        <img className='icon' src={OpenIcon} />
                     </a>
                 </div>
             </div>

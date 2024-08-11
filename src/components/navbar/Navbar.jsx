@@ -1,9 +1,11 @@
 import MenuIcon from '../../assets/icon-menu.svg'
 import CloseIcon from '../../assets/icon-close.svg'
+import SunIcon from '../../assets/icon-sun.svg';
+import MoonIcon from '../../assets/icon-moon.svg';
 import React, { useState } from 'react';
 import './navbar.css';
 
-function Navbar() {
+function Navbar({ darkMode, toggleTheme }) {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return(
@@ -20,6 +22,18 @@ function Navbar() {
                     </ul>
                 </nav>
                 <div id="vertical-divider"></div>
+                <button onClick={toggleTheme} className="theme-toggle-button">
+                    <img
+                        src={SunIcon}
+                        alt="Sun Icon"
+                        className={`icon sun-icon ${darkMode ? 'hide' : 'show'}`}
+                    />
+                    <img
+                        src={MoonIcon}
+                        alt="Moon Icon"
+                        className={`icon moon-icon ${darkMode ? 'show' : 'hide'}`}
+                    />
+                </button>
                 <button className="button">Download CV</button>
             </div>
             <div className="navbar-menu">
