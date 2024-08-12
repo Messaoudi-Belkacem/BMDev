@@ -2,13 +2,16 @@
     --color-bg-1-dark: #030712;
     --color-bg-2-dark: #111827;
     --color-bg-1-light: #FFFFFF;
-    --color-bg-2-light: #F9FAFB;
+    --color-bg-2-light: #F6F6F6;
 
     --color-text-1-dark: #F9FAFB;
     --color-text-1-light: #111827;
 
     --color-text-2-dark: #D1D5DB;
     --color-text-2-light: #4B5563;
+
+    --color-text-2-dark-hover: #D1D5DB80;
+    --color-text-2-light-hover: #4B556380;
 
     --color-tag-background-dark: #374151;
     --color-tag-background-light: #E5E7EB;
@@ -24,6 +27,9 @@
 
     --color-button-background-dark: #F9FAFB;
     --color-button-background-light: #111827;
+
+    --color-button-background-dark-hover: #F9FAFB80;
+    --color-button-background-light-hover: #11182780;
 
     --color-button-text-dark: #111827;
     --color-button-text-light: #F9FAFB;

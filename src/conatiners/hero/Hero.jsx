@@ -1,13 +1,14 @@
 import { IoLocationOutline } from "react-icons/io5";
 import { IoEllipse } from "react-icons/io5";
-import myImage from '../../assets/professional-picture.png';
+import myImageLight from '../../assets/professional-picture-light.png';
+import myImageDark from '../../assets/professional-picture-dark.png';
 import githubImage from '../../assets/github-icon.svg'
 import facebookImage from '../../assets/facebook-icon.svg'
 import instagramImage from '../../assets/instagram-icon.svg'
 import linkedInImage from '../../assets/linkedin-icon.svg'
 import './hero.css'
 
-function Hero() {
+function Hero({darkMode}) {
     return(
         <div className="bmdev__hero">
             <div className="bmdev__hero-content">
@@ -35,21 +36,21 @@ function Hero() {
                 </div>
                 <div className="bmdev__hero-content-links">
                     <a href="https://github.com/Messaoudi-Belkacem" target="_blank">
-                        <img src={githubImage}></img>
+                        <img className="icon" src={githubImage}></img>
                     </a>
                     <a href="https://www.facebook.com/waile.messaoudi/" target="_blank">
-                        <img src={facebookImage}></img>
+                        <img className="icon" src={facebookImage}></img>
                     </a>
                     <a href="https://www.instagram.com/waile.massudi/" target="_blank">
-                        <img src={instagramImage}></img>
+                        <img className="icon" src={instagramImage}></img>
                     </a>
                     <a href="https://www.linkedin.com/in/belkacem-messaoudi-a95591230/" target="_blank">
-                        <img src={linkedInImage}></img>
+                        <img className="icon" src={linkedInImage}></img>
                     </a>
                 </div>
             </div>
             <div className="bmdev__hero-image">
-                <img src={myImage}></img>
+                <img src={darkMode ? myImageDark : myImageLight}></img>
             </div>
         </div>
     )

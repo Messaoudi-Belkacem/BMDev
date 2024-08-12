@@ -76,16 +76,16 @@ function Footer() {
                         <p>You may also find me on these platforms!</p>
                         <div className="bmdev__footer-main-extra-links">
                             <a href="https://github.com/Messaoudi-Belkacem" target="_blank">
-                                <img src={githubImage}></img>
+                                <img className='icon' src={githubImage}></img>
                             </a>
                             <a href="https://www.facebook.com/waile.messaoudi/" target="_blank">
-                                <img src={facebookImage}></img>
+                                <img className='icon' src={facebookImage}></img>
                             </a>
                             <a href="https://www.instagram.com/waile.massudi/" target="_blank">
-                                <img src={instagramImage}></img>
+                                <img className='icon' src={instagramImage}></img>
                             </a>
                             <a href="https://www.linkedin.com/in/belkacem-messaoudi-a95591230/" target="_blank">
-                                <img src={linkedInImage}></img>
+                                <img className='icon' src={linkedInImage}></img>
                             </a>
                         </div>
                     </div>

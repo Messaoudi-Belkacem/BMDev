@@ -17,7 +17,7 @@ function App() {
   return(
     <div className={darkMode ? 'dark-mode' : 'light-mode'}>
       <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
-      <Hero/>
+      <Hero darkMode={darkMode}/>
       <Skills/>
       <Work/>
       <Footer/>

@@ -122,6 +122,15 @@
     gap: 4px;
 }
 
+.bmdev__footer-main-extra-links .icon {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.bmdev__footer-main-extra-links .icon:hover {
+    transform: scale(1.2);
+}
+
 .bmdev__footer-copyrights {
     display: flex;
     justify-content: center;

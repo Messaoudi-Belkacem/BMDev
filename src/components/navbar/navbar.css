@@ -38,7 +38,7 @@
 }
 
 .navbar-right-content a:hover {
-    color: #f9fafbdd;
+    color: var(--color-text-2-hover);
     text-decoration: none;
 }
 
@@ -72,7 +72,7 @@
     height: 36px;
     width: 136px;
     margin-left: 16px;
-    background: #f9fafbdd;
+    background: var(--color-button-background-hover);
     cursor: pointer;
 }
 

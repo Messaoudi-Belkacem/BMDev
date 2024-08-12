@@ -83,6 +83,16 @@
     gap: 4px;
 }
 
+.bmdev__hero-content-links .icon {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.bmdev__hero-content-links .icon:hover {
+    transform: scale(1.2);
+}
+
+
 .bmdev__hero-content-info-location .location-icon {
     height: 24px;
     width: 24px;
