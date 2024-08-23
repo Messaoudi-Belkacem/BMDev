@@ -43,7 +43,7 @@ function Navbar({ darkMode, toggleTheme }) {
                 }
                 {toggleMenu && (
                     <div className="navbar-menu_container">
-                        <hr/>
+                        <hr />
                         <div className="navbar-menu_container-links">
                             <p><a href="#home">Home</a></p>
                             <p><a href="#about">About</a></p>
@@ -52,6 +52,7 @@ function Navbar({ darkMode, toggleTheme }) {
                             <p><a href="#contact">Contact</a></p>
                         </div>
                         <hr/>
+                        <br />
                         <button className="button">Download CV</button>
                     </div>
                 )}

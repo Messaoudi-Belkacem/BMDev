@@ -29,28 +29,28 @@ function Hero({darkMode}) {
                     </div>
                     <div className="bmdev__hero-content-info-availability">
                         <div className="ellipse-icon-div">
-                            <IoEllipse className="ellipse-icon"/> 
-                        </div>                   
+                            <IoEllipse className="ellipse-icon"/>
+                        </div>
                         <p>Available for new projects</p>
                     </div>
                 </div>
                 <div className="bmdev__hero-content-links">
-                    <a href="https://github.com/Messaoudi-Belkacem" target="_blank">
-                        <img className="icon" src={githubImage}></img>
+                    <a href="https://github.com/Messaoudi-Belkacem" target="_blank" rel="noreferrer">
+                        <img className="icon" src={githubImage} alt="Github" />
                     </a>
-                    <a href="https://www.facebook.com/waile.messaoudi/" target="_blank">
-                        <img className="icon" src={facebookImage}></img>
+                    <a href="https://www.facebook.com/waile.messaoudi/" target="_blank" rel="noreferrer">
+                        <img className="icon" src={facebookImage} alt="Facebook" />
                     </a>
-                    <a href="https://www.instagram.com/waile.massudi/" target="_blank">
-                        <img className="icon" src={instagramImage}></img>
+                    <a href="https://www.instagram.com/waile.massudi/" target="_blank" rel="noreferrer">
+                        <img className="icon" src={instagramImage} alt="Instagram" />
                     </a>
-                    <a href="https://www.linkedin.com/in/belkacem-messaoudi-a95591230/" target="_blank">
-                        <img className="icon" src={linkedInImage}></img>
+                    <a href="https://www.linkedin.com/in/belkacem-messaoudi-a95591230/" target="_blank" rel="noreferrer">
+                        <img className="icon" src={linkedInImage} alt="LinkedIn" />
                     </a>
                 </div>
             </div>
             <div className="bmdev__hero-image">
-                <img src={darkMode ? myImageDark : myImageLight}></img>
+                <img src={darkMode ? myImageDark : myImageLight} alt="my profile pic" />
             </div>
         </div>
     )

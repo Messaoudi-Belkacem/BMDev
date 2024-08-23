@@ -74,7 +74,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 12px;
 }
 
 .bmdev__footer-main-contact-email p {
@@ -89,7 +89,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 12px;
 }
 
 .bmdev__footer-main-contact-phone p {
@@ -151,26 +151,18 @@
         gap: 24px;
     }
 
-    .bmdev__footer-main-contact-email {
-        gap: 20px;
-    }
-    
     .bmdev__footer-main-contact-email p {
         font-size: 18px;
         font-weight: bolder;
         line-height: 28px;
         color: var(--color-text-1);
     }
-    
-    .bmdev__footer-main-contact-phone {
-        gap: 20px;
-    }
-    
+
     .bmdev__footer-main-contact-phone p {
         font-size: 18px;
         font-weight: bolder;
         line-height: 28px;
         color: var(--color-text-1);
     }
-    
+
 }
