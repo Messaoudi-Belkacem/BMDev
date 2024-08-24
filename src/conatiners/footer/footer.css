@@ -145,7 +145,7 @@
     color: var(--color-text-2);
 }
 
-@media  screen and (max-width: 1050px) {
+@media  screen and (max-width: 768px) {
     .bmdev__footer-main {
         padding: 64px 16px;
         gap: 24px;

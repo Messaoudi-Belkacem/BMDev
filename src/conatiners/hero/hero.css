@@ -112,7 +112,7 @@
     color: #10B981;
 }
 
-@media  screen and (max-width: 1050px) {
+@media  screen and (max-width: 768px) {
     .bmdev__hero {
         flex-direction: column-reverse;
         padding: 64px 16px;
