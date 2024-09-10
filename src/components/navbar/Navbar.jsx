@@ -54,7 +54,7 @@ function Navbar({ darkMode, toggleTheme }) {
                         </div>
                         <hr/>
                         <br />
-                        <a href={Resume} download="Belkacem_Messaoudi_CV.pdf">
+                        <a className="button" href={Resume} download="Belkacem_Messaoudi_CV.pdf">
                             <button className="button">Download CV</button>
                         </a>
                     </div>

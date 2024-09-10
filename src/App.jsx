@@ -4,9 +4,13 @@ import {Skills} from './conatiners'
 import {Work} from './conatiners'
 import './main.css'
 import './scrollbar.css'
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    document.title = "BMDev";
+  }, []);
 
   const [darkMode, setDarkMode] = useState(true);
 

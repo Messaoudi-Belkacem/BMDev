@@ -64,6 +64,7 @@
     margin-left: 16px;
     color: var(--color-button-text);
     background: var(--color-button-background);
+    transition: background-color 0.2s ease-in-out;
 }
 
 .navbar-right-content .button:hover {
@@ -77,6 +78,11 @@
     margin-left: 16px;
     background: var(--color-button-background-hover);
     cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.navbar-right-content .button:active {
+    transform: scale(0.98);
 }
 
 .navbar-menu {
@@ -106,7 +112,9 @@
     border: 0;
     height: 36px;
     width: 100%;
-    background: #F9FAFB;
+    color: var(--color-button-text);
+    background: var(--color-button-background);
+    transition: background-color 0.2s ease-in-out;
 }
 
 .navbar-menu_container .button:hover {
@@ -117,8 +125,13 @@
     border: 0;
     height: 36px;
     width: 100%;
-    background: #f9fafbdd;
+    background: var(--color-button-background-hover);
     cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.navbar-menu_container .button:active {
+    transform: scale(0.98);
 }
 
 .navbar-menu_container hr {
