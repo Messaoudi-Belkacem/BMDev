@@ -23,26 +23,28 @@ function Work() {
         },
       ];
     return(
-        <div className='bmdev__work'>
-            <div className='bmdev__work-tag'>
-                <p>Work</p>
+        <section id='work'>
+            <div className='bmdev__work'>
+                <div className='bmdev__work-tag'>
+                    <p>Work</p>
+                </div>
+                <div className='bmdev__work-text'>
+                    <p>Some of the noteworthy projects I have built:</p>
+                </div>
+                <div className='bmdev__work-projects'>
+                    {projects.map((item, index) => (
+                        <Project 
+                            key={index}
+                            imageSrc={item.imageSrc}
+                            projectName={item.projectName}
+                            description={item.description}
+                            technologies={item.technologies}
+                            href={item.href}
+                        />
+                    ))}
+                </div>
             </div>
-            <div className='bmdev__work-text'>
-                <p>Some of the noteworthy projects I have built:</p>
-            </div>
-            <div className='bmdev__work-projects'>
-                {projects.map((item, index) => (
-                    <Project 
-                        key={index}
-                        imageSrc={item.imageSrc}
-                        projectName={item.projectName}
-                        description={item.description}
-                        technologies={item.technologies}
-                        href={item.href}
-                    />
-                ))}
-            </div>
-        </div>
+        </section>   
     )
 }
 

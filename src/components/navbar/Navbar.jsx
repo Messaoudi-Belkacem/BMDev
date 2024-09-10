@@ -2,6 +2,7 @@ import MenuIcon from '../../assets/icon-menu.svg'
 import CloseIcon from '../../assets/icon-close.svg'
 import SunIcon from '../../assets/icon-sun.svg';
 import MoonIcon from '../../assets/icon-moon.svg';
+import Resume from'../../assets/cv.pdf'
 import React, { useState } from 'react';
 import './navbar.css';
 
@@ -15,7 +16,6 @@ function Navbar({ darkMode, toggleTheme }) {
                 <nav>
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#work">Work</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -34,7 +34,9 @@ function Navbar({ darkMode, toggleTheme }) {
                         className={`icon moon-icon ${darkMode ? 'show' : 'hide'}`}
                     />
                 </button>
-                <button className="button">Download CV</button>
+                <a href={Resume} download="Belkacem_Messaoudi_CV.pdf">
+                    <button className="button">Download CV</button>
+                </a>
             </div>
             <div className="navbar-menu">
                 {toggleMenu
@@ -46,14 +48,15 @@ function Navbar({ darkMode, toggleTheme }) {
                         <hr />
                         <div className="navbar-menu_container-links">
                             <p><a href="#home">Home</a></p>
-                            <p><a href="#about">About</a></p>
                             <p><a href="#skills">Skills</a></p>
                             <p><a href="#work">Work</a></p>
                             <p><a href="#contact">Contact</a></p>
                         </div>
                         <hr/>
                         <br />
-                        <button className="button">Download CV</button>
+                        <a href={Resume} download="Belkacem_Messaoudi_CV.pdf">
+                            <button className="button">Download CV</button>
+                        </a>
                     </div>
                 )}
             </div>

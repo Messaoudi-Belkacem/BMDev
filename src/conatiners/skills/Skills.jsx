@@ -30,19 +30,21 @@ function Skills() {
         { name: 'Flask', imageSrc: flaskIcon, href: 'https://flask.palletsprojects.com/en/3.0.x/' },
       ];
     return(
-        <div className='bmdev__skills'>
-            <div className='bmdev__skills-tag'>
-                <p>Skills</p>
+        <section id='skills'>
+            <div className='bmdev__skills'>
+                <div className='bmdev__skills-tag'>
+                    <p>Skills</p>
+                </div>
+                <div className='bmdev__skills-text'>
+                    <p>The skills, tools and technologies I am really good at:</p>
+                </div>
+                <div className='bmdev__skills-technologies'>
+                    {technologies.map((tech, index) => (
+                        <Technology key={index} imageSrc={tech.imageSrc} name={tech.name} href={tech.href} />
+                    ))}
+                </div>
             </div>
-            <div className='bmdev__skills-text'>
-                <p>The skills, tools and technologies I am really good at:</p>
-            </div>
-            <div className='bmdev__skills-technologies'>
-                {technologies.map((tech, index) => (
-                    <Technology key={index} imageSrc={tech.imageSrc} name={tech.name} href={tech.href} />
-                ))}
-            </div>
-        </div>
+        </section>
     )
 }
 
