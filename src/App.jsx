@@ -8,10 +8,6 @@ import React, { useState, useEffect } from 'react';
 
 function App() {
 
-  useEffect(() => {
-    document.title = "BMDev";
-  }, []);
-
   const [darkMode, setDarkMode] = useState(true);
 
   const toggleTheme = () => {
