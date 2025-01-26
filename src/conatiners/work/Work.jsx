@@ -12,14 +12,14 @@ function Work() {
             imageSrc: HomeSeekerCover,
             technologies: ['Kotlin', 'Jetpack compose', 'Java', 'Spring', 'MYSQL', 'Retrofit', 'Room', 'Dagger hilt', 'Coil'],
             href: 'https://github.com/Messaoudi-Belkacem/HomeSeeker',
-            description: 'Aliqua elit voluptate Lorem anim enim dolor nisi anim eu veniam culpa adipisicing anim. Laborum eu nisi proident pariatur sit mollit tempor quis laborum sunt. Laborum eiusmod qui est cillum cupidatat nostrud ipsum aliquip exercitation voluptate qui eu. Excepteur sint irure quis consectetur. Reprehenderit eu nostrud laborum velit Lorem dolor enim consequat laboris.' 
+            description: 'Home Seeker is an Android app developed as a school project to simplify finding and managing home listings. Built with Jetpack Compose, it delivers a responsive and user-friendly interface. I independently implemented the backend using Java Spring and MySQL, focusing on efficient and scalable data management. This project allowed me to enhance my technical skills by exploring modern technologies and combining intuitive design with robust functionality.' 
         },
         { 
             projectName: 'MoviesDB',
             imageSrc: MoviesDBCover,
             technologies: ['Kotlin', 'Jetpack compose', 'Retrofit', 'Room', 'Dagger hilt', 'Coil'],
             href: 'https://github.com/Messaoudi-Belkacem/MoviesDB',
-            description: 'Excepteur occaecat aute nostrud ea fugiat consequat occaecat proident amet reprehenderit quis consectetur tempor labore. Eu ipsum laboris eu officia exercitation voluptate elit officia ut proident elit. Lorem sint aute laborum exercitation. Dolor minim nostrud velit sint sunt laborum aute cillum fugiat nulla. Commodo aliquip mollit laboris exercitation minim sit ad. Voluptate est consectetur nulla Lorem ut eiusmod reprehenderit eiusmod dolore. Ut quis consequat excepteur ut velit sunt cupidatat irure adipisicing id.' 
+            description: 'Movies DB is an Android app developed to explore the latest tools and libraries in Android development while offering a seamless way to browse and manage movie data. Built with Jetpack Compose, the app features a modern, declarative UI. It utilizes Dagger Hilt for dependency injection, Retrofit and OkHttp for API interactions, and Coil for fast image loading. Paging 3 ensures smooth data handling from the TMDB API, while Room and DataStore manage local and preference data efficiently. Lottie Animations and ConstraintLayout Compose add dynamic visuals and complex layouts, creating a polished and responsive user experience. This project allowed me to deepen my skills with modern technologies and overcome challenges such as TMDB API limitations.' 
         },
       ];
     return(
